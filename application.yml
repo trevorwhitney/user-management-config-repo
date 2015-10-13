@@ -3,3 +3,15 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+# Turns off security that Spring Cloud Services adds
+# when it pulls in Spring Security
+security:
+  basic:
+    enabled: false
+
+# Turn off security of management endpoints
+# for Spring Boot Actuator
+management:
+  security:
+    enabled: false

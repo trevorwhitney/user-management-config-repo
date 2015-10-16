@@ -2,7 +2,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://userManagementServiceDiscovery.192.168.11.11.xip.io/eureka/
   # Allow the services to register more quickly in a demo environment.
   instance:
     leaseRenewalIntervalInSeconds: 1
